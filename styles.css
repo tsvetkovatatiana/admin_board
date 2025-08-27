@@ -37,10 +37,8 @@ p {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 200px 1fr;
-
-    gap: 20px;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 6fr;
 }
 
 .sidebar {
