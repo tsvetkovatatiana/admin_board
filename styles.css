@@ -237,9 +237,91 @@ div[class="sidebar-content"] > img {
     margin-bottom: 15px;
 }
 
+
+.right-side-content {
+    margin-left: 20px;
+}
+
+.right-side-content > h2:last-of-type {
+    margin-top: 35px;
+}
+
 .announcements-card {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 12px;
     margin-right: 20px;
-    margin-left: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.announcements-card-content > p:first-of-type,
+.announcements-card-content > p:nth-of-type(3),
+.announcements-card-content > p:nth-of-type(5) {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+.announcements-card-content > p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.announcements-card-content > br {
+    display: none;
+}
+
+.announcements-card-content > p:nth-of-type(2),
+.announcements-card-content > p:nth-of-type(4),
+.announcements-card-content > p:nth-of-type(6) {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.trending {
+    background-color: white;
+    border-radius: 12px;
+    margin-right: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.trending .channel {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.trending .channel:last-child {
+    margin-bottom: 0;
+}
+
+.trending .channel img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.trending .channel p:first-of-type {
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.trending .channel p:last-of-type {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 0;
+}
+
+.channel-name-project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
 }
